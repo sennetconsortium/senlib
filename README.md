@@ -110,13 +110,13 @@ The following JSON represents the senotype definition in the attached Excel file
 			"objects": [
 				{
 					"term": "RRID:111111",
-					"IRI" : "https://scicrunch.org/resolver/RRID:AB_90755"
+					"code" : "https://scicrunch.org/resolver/RRID:AB_90755"
 				}
 			]
 		},
 		{
 			"predicate": {
-				"term": "has_inducer",
+				"term": "has_inducer"
 			},
 			"objects": [
 				{
@@ -127,7 +127,7 @@ The following JSON represents the senotype definition in the attached Excel file
 		},
 		{
 			"predicate": {
-				"term": "has_context",
+				"term": "has_context"
 			},
 			"objects": [
 				{
@@ -143,7 +143,7 @@ The following JSON represents the senotype definition in the attached Excel file
 		},
 		{
 			"predicate": {
-				"term": "has_assay",
+				"term": "has_assay"
 			},
 			"objects": [
 				{
@@ -154,23 +154,23 @@ The following JSON represents the senotype definition in the attached Excel file
 		},
 		{
 			"predicate": {
-				"term": "has_citation",
+				"term": "has_citation"
 			},
 			"objects": [
 				{
 					"term": "PMID:31945054",
-					"IRI":"https://pubmed.ncbi.nlm.nih.gov/31945054/"
+					"code":"https://pubmed.ncbi.nlm.nih.gov/31945054/"
 				}
 			]
 		},
 		{
 			"predicate": {
-				"term": "has_dataset",
+				"term": "has_dataset"
 			},
 			"objects": [
 				{
 					"term": "SNT499.ZXRV.452",
-					"IRI": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
+					"code": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
 				}
 			]
 		},
@@ -187,7 +187,7 @@ The following JSON represents the senotype definition in the attached Excel file
 				{
 					"symbol": "ABL1",
 					"code": "HGNC:76"
-				},
+				}
 				]
 		},
 		{
@@ -219,7 +219,7 @@ The following JSON represents the senotype definition in the attached Excel file
 					"symbol": "Q7Z460",
 					"code": "UNIPROTKB:Q7Z460"
 				}
-			],
+			]
 		},
 		{
 			"predicate": {
@@ -232,9 +232,7 @@ The following JSON represents the senotype definition in the attached Excel file
 				}				
 			]
 		}
-
 	]
-
 }
 ```
 
