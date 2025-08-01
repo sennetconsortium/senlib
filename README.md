@@ -20,8 +20,7 @@ This repository will be used to manage individually defined senotypes. Each _sub
 Senotype submissions will be stored as files in JSON format.
 
 It is anticipated that a Web-based curation application will allow users to define senotypes and submit definitions for import into the UBKG context.
-The attached Excel file proposes the user interface for the curation application.
-
+The [attached Excel file](https://github.com/sennetconsortium/senlib/blob/main/doc/Senotype_Library_Example_Submission.xlsx) simulates the user interface for the curation application.
 
 
 Senotype submissions will be stored in the repository as JSON files. The schema of the JSON file is straightforward.
