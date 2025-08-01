@@ -82,7 +82,7 @@
 		},
 		{
 			"predicate": {
-				"term": "has_inducer",
+				"term": "has_inducer"
 			},
 			"objects": [
 				{
