@@ -93,7 +93,7 @@
 		},
 		{
 			"predicate": {
-				"term": "has_context",
+				"term": "has_context"
 			},
 			"objects": [
 				{
@@ -109,7 +109,7 @@
 		},
 		{
 			"predicate": {
-				"term": "has_assay",
+				"term": "has_assay"
 			},
 			"objects": [
 				{
@@ -120,7 +120,7 @@
 		},
 		{
 			"predicate": {
-				"term": "has_citation",
+				"term": "has_citation"
 			},
 			"objects": [
 				{
@@ -131,7 +131,7 @@
 		},
 		{
 			"predicate": {
-				"term": "has_dataset",
+				"term": "has_dataset"
 			},
 			"objects": [
 				{
