@@ -1,0 +1,204 @@
+{
+	"senotype":	{
+		"code": "SENOTYPE_C0002",
+		"term": "human lung fibroblast copd sasp",
+		"definition": "This senescence associated secretory phenotype has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
+	},
+	"submitter": {
+		"name":	{
+			"first": "Jonathan",
+			"last": "Silverstein",
+			"email": "j.c.s@pitt.edu"
+		}
+	},
+	"assertions": [
+		{
+			"predicate": {
+				"term": "in_taxon",
+				"IRI": "http://purl.obolibrary.org/obo/RO_0002162"
+			},
+			"objects": [
+				{
+				"term": "human",
+				"code": "NCBI:9606"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "located_in",
+				"IRI": "http://purl.obolibrary.org/obo/RO_0001025"
+			},
+			"objects": [
+				{
+					"term": "lung",
+					"code": "UBERON:0002048"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_cell_type"
+			},
+			"objects": [
+				{
+					"term": "fibroblast of lung",
+					"code": "CL:0002553"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_hallmark"
+			},
+			"objects": [
+				{
+					"term": "senescence associated secretory phenotype",
+					"code": "SENOTYPE_VS:C00201"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_molecular_observable"
+			},
+			"objects": [
+				{
+					"term": "secretome",
+					"code": "SENOTYPE_VS:C00111"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_origin"
+			},
+			"objects": [
+				{
+					"term": "RRID:111111",
+					"IRI" : "https://scicrunch.org/resolver/RRID:AB_90755"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_inducer",
+			},
+			"objects": [
+				{
+					"term": "radiation",
+					"code": "SENOTYPE_VS:C00401"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_context",
+			},
+			"objects": [
+				{
+					"term": "age",
+					"code": "SNOMEDCT_US:397669002",
+					"lowerbound": 18,
+					"upperbound": 85,
+					"unit": {
+						"term": "year"
+					}
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_assay",
+			},
+			"objects": [
+				{
+					"term": "tandem mass spectrometry analysis",
+					"code": "OBI:0003647"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_citation",
+			},
+			"objects": [
+				{
+					"term": "PMID:31945054",
+					"IRI":"https://pubmed.ncbi.nlm.nih.gov/31945054/"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_dataset",
+			},
+			"objects": [
+				{
+					"term": "SNT499.ZXRV.452",
+					"IRI": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "has_characterizing_marker_set",
+				"IRI": "http://purl.obolibrary.org/obo/RO_0015004"
+			},
+			"objects": [
+				{
+					"symbol": "O76094",
+					"code": "UNIPROTKB:O76094"
+				},
+				{
+					"symbol": "ABL1",
+					"code": "HGNC:76"
+				},
+				]
+		},
+		{
+			"predicate": {
+				"term": "up_regulates"
+			},
+			"objects": [
+
+				{
+					"symbol": "P22087",
+					"code": "UNIPROTKB:P22087"
+				},
+				{
+					"symbol": "Q99988",
+					"code": "UNIPROTKB:Q99988"
+				},
+				{
+					"symbol": "P09429",
+					"code": "UNIPROTKB:P09429"
+				}
+			]
+		},
+		{
+			"predicate": {
+				"term": "inconclusively_regulates"
+			},
+			"objects": [
+				{
+					"symbol": "Q7Z460",
+					"code": "UNIPROTKB:Q7Z460"
+				}
+			],
+		},
+		{
+			"predicate": {
+				"term": "down_regulates"
+			},
+			"objects": [
+				{
+					"symbol": "P52294",
+					"code": "UNIPROTKB:P52294"
+				}				
+			]
+		}
+
+	]
+
+}
