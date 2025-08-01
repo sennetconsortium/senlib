@@ -185,7 +185,7 @@
 					"symbol": "Q7Z460",
 					"code": "UNIPROTKB:Q7Z460"
 				}
-			],
+			]
 		},
 		{
 			"predicate": {
@@ -198,7 +198,5 @@
 				}				
 			]
 		}
-
 	]
-
 }
