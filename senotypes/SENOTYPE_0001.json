@@ -1,6 +1,6 @@
 {
 	"senotype":	{
-		"code": "SENOTYPE_C0002",
+		"code": "SENOTYPE_C0001",
 		"term": "human lung fibroblast copd sasp",
 		"definition": "This senescence associated secretory phenotype has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
 	},
