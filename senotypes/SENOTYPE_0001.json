@@ -76,7 +76,7 @@
 			"objects": [
 				{
 					"term": "RRID:111111",
-					"IRI" : "https://scicrunch.org/resolver/RRID:AB_90755"
+					"code" : "https://scicrunch.org/resolver/RRID:AB_90755"
 				}
 			]
 		},
