@@ -1,4 +1,4 @@
-# Senotype Library
+# SenLib - The Senotype Library
 
 
 
