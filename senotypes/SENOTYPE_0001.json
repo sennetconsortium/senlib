@@ -136,7 +136,7 @@
 			"objects": [
 				{
 					"term": "SNT499.ZXRV.452",
-					"IRI": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
+					"code": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
 				}
 			]
 		},
