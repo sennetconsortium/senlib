@@ -22,6 +22,8 @@ Senotype submissions will be stored as files in JSON format.
 It is anticipated that a Web-based curation application will allow users to define senotypes and submit definitions for import into the UBKG context.
 The attached Excel file proposes the user interface for the curation application.
 
+
+
 Senotype submissions will be stored in the repository as JSON files. The schema of the JSON file is straightforward.
 A senotype definition is essentially a set of assertions with the senotype as subject. It is assumed that there will be multiple assertions of the same type--e.g., between the senotype and each of its markers. Thus,
 1. Assertions are organized into an array.
