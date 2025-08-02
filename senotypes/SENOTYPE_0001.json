@@ -101,9 +101,7 @@
 					"code": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
-					"unit": {
-						"term": "year"
-					}
+					"unit": "year"
 				}
 			]
 		},
