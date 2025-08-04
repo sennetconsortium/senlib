@@ -5,10 +5,11 @@
 		"definition": "Senotype C0002 description"
 	},
 	"submitter": {
-		"name":	{
+		"name": {
 			"first": "Jonathan",
-			"last": "Silverstein",
-			"email": "j.c.s@pitt.edu"
+			"last": "Silverstein"
+		},
+		"email": "j.c.s@pitt.edu"
 		}
 	},
 	"assertions": [
