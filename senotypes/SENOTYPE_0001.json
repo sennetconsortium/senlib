@@ -75,8 +75,7 @@
 			},
 			"objects": [
 				{
-					"term": "RRID:111111",
-					"code" : "https://scicrunch.org/resolver/RRID:AB_90755"
+					"code": "RRID:111111"
 				}
 			]
 		},
@@ -122,8 +121,7 @@
 			},
 			"objects": [
 				{
-					"term": "PMID:31945054",
-					"code":"https://pubmed.ncbi.nlm.nih.gov/31945054/"
+					"term": "PMID:31945054"
 				}
 			]
 		},
@@ -133,8 +131,7 @@
 			},
 			"objects": [
 				{
-					"term": "SNT499.ZXRV.452",
-					"code": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
+					"code": "SNT499.ZXRV.452",
 				}
 			]
 		},
