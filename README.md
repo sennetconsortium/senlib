@@ -39,11 +39,11 @@ The following JSON represents the senotype definition in the attached Excel file
 		"definition": "This senescence associated secretory phenotype has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
 	},
 	"submitter": {
-		"name":	{
+		"name": {
 			"first": "Jonathan",
-			"last": "Silverstein",
-			"email": "j.c.s@pitt.edu"
-		}
+			"last": "Silverstein"
+		},
+		"email": "j.c.s@pitt.edu"
 	},
 	"assertions": [
 		{
@@ -109,8 +109,7 @@ The following JSON represents the senotype definition in the attached Excel file
 			},
 			"objects": [
 				{
-					"term": "RRID:111111",
-					"code" : "https://scicrunch.org/resolver/RRID:AB_90755"
+					"code": "RRID:111111"
 				}
 			]
 		},
@@ -135,9 +134,7 @@ The following JSON represents the senotype definition in the attached Excel file
 					"code": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
-					"unit": {
-						"term": "year"
-					}
+					"unit": "year"
 				}
 			]
 		},
@@ -158,8 +155,7 @@ The following JSON represents the senotype definition in the attached Excel file
 			},
 			"objects": [
 				{
-					"term": "PMID:31945054",
-					"code":"https://pubmed.ncbi.nlm.nih.gov/31945054/"
+					"code": "PMID:31945054"
 				}
 			]
 		},
@@ -169,8 +165,7 @@ The following JSON represents the senotype definition in the attached Excel file
 			},
 			"objects": [
 				{
-					"term": "SNT499.ZXRV.452",
-					"code": "https://data.sennetconsortium.org/dataset?uuid=83679ee4b5e77f2186eff41e872fee9e/"
+					"code": "SNT499.ZXRV.452"
 				}
 			]
 		},
