@@ -97,7 +97,7 @@
 			"objects": [
 				{
 					"term": "age",
-					"code": "SNOMEDCT_US:397669002",
+					"code": "SENOTYPE_VS:C00501",
 					"lowerbound": 18,
 					"upperbound": 85,
 					"unit": "year"
