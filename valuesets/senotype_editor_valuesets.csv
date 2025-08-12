@@ -1,0 +1,17 @@
+predicate_IRI,predicate_term,valueset_code,valueset_term
+http://purl.obolibrary.org/obo/RO_0002162,in_taxon,NCBI:9606,human
+http://purl.obolibrary.org/obo/RO_0002162,in_taxon,NCBI:10088,mouse
+http://purl.obolibrary.org/obo/RO_0001025,located_in,UBERON:0002048,lung
+,has_cell_type,CL:0002553,fibroblast of lung
+,has_hallmark,SENOTYPE_VS:C00201,senescence associated secretory phenotype
+,has_molecular_observable,SENOTYPE_VS:C00111,secretome
+,has_origin,,
+,has_inducer,SENOTYPE_VS:C00401,radiation
+,has_context,SNOMEDCT_US:397669002,age
+,has_assay,OBI:0003647,tandem mass spectrometry analysis
+,has_citation,,
+,has_dataset,,
+http://purl.obolibrary.org/obo/RO_0015004,has_characterizing_marker_set,,
+,up_regulates,,
+,inconclusively_regulates,,
+,down_regulates,,
