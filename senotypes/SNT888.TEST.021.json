@@ -58,7 +58,7 @@
 			},
 			"objects": [
 				{
-					"term": "senescence associated secretory phenotype",
+					"type": "valueset",
 					"code": "SENOTYPE_VS:C00201"
 				}
 			]
