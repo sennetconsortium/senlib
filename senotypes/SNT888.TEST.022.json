@@ -1,11 +1,11 @@
 {
 	"senotype":	{
-		"uuid": "SNT888.TEST.022",
-		"provenance": {
+		"id": "SNT888.TEST.022",
+		"version": {
 			"previous": "SNT888.TEST.021",
 			"next": null
 		},
-		"doi": "https://doi.org/10.5438/0000-00SS",
+		"doi": null,
 		"name": "human lung fibroblast copd sasp",
 		"definition": "022 This senescence associated secretory phenotype has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
 	},
@@ -36,7 +36,7 @@
 			},
 			"objects": [
 				{
-					"term": "lung",
+					"type": "valueset",
 					"code": "UBERON:0002048"
 				}
 			]
@@ -47,7 +47,7 @@
 			},
 			"objects": [
 				{
-					"term": "fibroblast of lung",
+					"type": "valueset",
 					"code": "CL:0002553"
 				}
 			]
@@ -69,7 +69,7 @@
 			},
 			"objects": [
 				{
-					"term": "secretome",
+					"type": "valueset",
 					"code": "SENOTYPE_VS:C00111"
 				}
 			]
@@ -80,6 +80,7 @@
 			},
 			"objects": [
 				{
+					"type": "external",
 					"code": "RRID:111111"
 				}
 			]
@@ -90,7 +91,7 @@
 			},
 			"objects": [
 				{
-					"term": "radiation",
+					"type": "valueset",
 					"code": "SENOTYPE_VS:C00401"
 				}
 			]
@@ -101,7 +102,7 @@
 			},
 			"objects": [
 				{
-					"term": "age",
+					"type": "valueset",
 					"dbxref": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
@@ -115,7 +116,7 @@
 			},
 			"objects": [
 				{
-					"term": "tandem mass spectrometry analysis",
+					"type": "valueset",
 					"code": "OBI:0003647"
 				}
 			]
@@ -126,6 +127,7 @@
 			},
 			"objects": [
 				{
+					"type": "external",
 					"code": "PMID:31945054"
 				}
 			]
@@ -136,6 +138,7 @@
 			},
 			"objects": [
 				{
+					"type": "external",
 					"code": "SNT499.ZXRV.452"
 				}
 			]
@@ -147,11 +150,11 @@
 			},
 			"objects": [
 				{
-					"symbol": "O76094",
+					"type": "external",
 					"code": "UNIPROTKB:O76094"
 				},
 				{
-					"symbol": "ABL1",
+					"type": "external",
 					"code": "HGNC:76"
 				}
 				]
@@ -163,15 +166,15 @@
 			"objects": [
 
 				{
-					"symbol": "P22087",
+					"type": "external",
 					"code": "UNIPROTKB:P22087"
 				},
 				{
-					"symbol": "Q99988",
+					"type": "external",
 					"code": "UNIPROTKB:Q99988"
 				},
 				{
-					"symbol": "P09429",
+					"type": "external",
 					"code": "UNIPROTKB:P09429"
 				}
 			]
@@ -182,7 +185,7 @@
 			},
 			"objects": [
 				{
-					"symbol": "Q7Z460",
+					"type": "external",
 					"code": "UNIPROTKB:Q7Z460"
 				}
 			]
@@ -193,7 +196,7 @@
 			},
 			"objects": [
 				{
-					"symbol": "P52294",
+					"type": "external",
 					"code": "UNIPROTKB:P52294"
 				}				
 			]
