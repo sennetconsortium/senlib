@@ -36,10 +36,9 @@ The example use case is a submission with three versions, the latest of which ha
 ### Provenance, DOI, and versioning
 A submission will be assigned a SenNet ID via the uuid-api. Each version of a submission
 will have its own SenNet ID. The provenance for a version of a submission will be 
-stored in terms of the SenNet IDs of the version's predecessor (**previous**) and successor
-(**next**).
+stored in terms of the SenNet IDs of the submission's **predecessor** and **successor**.
 
-The relative version can be derived via the **provenance** object.
+The relative version of a Senotype can be derived via the chain of ids in provenance.
 
 A senotype submission will be _published_ with a DOI. A published submission with a DOI 
 cannot be edited. A new version of a published submission cn be created: the new version

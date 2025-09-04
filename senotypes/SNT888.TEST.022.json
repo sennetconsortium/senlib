@@ -2,8 +2,8 @@
 	"senotype":	{
 		"id": "SNT888.TEST.022",
 		"provenance": {
-			"previous": "SNT888.TEST.021",
-			"next": null
+			"predecessor": "SNT888.TEST.021",
+			"successor": null
 		},
 		"doi": null,
 		"name": "human lung fibroblast copd sasp",
