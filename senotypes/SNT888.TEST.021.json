@@ -1,17 +1,20 @@
 {
 	"senotype":	{
-		"code": "SNT888.TEST.002",
-		"version": 0,
-		"doi": null,
-		"term": "human lung fibroblast copd sasp 002",
-		"definition": "SNT888.TEST.002 description"
+		"uuid": "SNT888.TEST.021",
+		"version": {
+			"previous": "SNT888.TEST.020",
+			"next": "SNT888.TEST.022"
+		},
+		"doi":  "https://doi.org/10.17603/ds2-xpyf-sv77",
+		"name": "human lung fibroblast copd sasp",
+		"definition": "021 This senescence associated secretory phenotype has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
 	},
 	"submitter": {
 		"name": {
-			"first": "John",
-			"last": "Doe"
+			"first": "Jonathan",
+			"last": "Silverstein"
 		},
-		"email": "jdoe@pitt.edu"
+		"email": "j.c.s@pitt.edu"
 	},
 	"assertions": [
 		{
