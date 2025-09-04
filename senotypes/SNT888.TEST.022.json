@@ -1,7 +1,7 @@
 {
 	"senotype":	{
 		"id": "SNT888.TEST.022",
-		"version": {
+		"provenance": {
 			"previous": "SNT888.TEST.021",
 			"next": null
 		},
