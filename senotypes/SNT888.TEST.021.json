@@ -24,7 +24,7 @@
 			},
 			"objects": [
 				{
-				"term": "human",
+				"type": "valueset",
 				"code": "NCBI:9606"
 				}
 			]
