@@ -102,7 +102,7 @@
 			},
 			"objects": [
 				{
-					"type": "valueset",
+					"type": "age",
 					"dbxref": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
