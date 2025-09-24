@@ -103,7 +103,7 @@
 			"objects": [
 				{
 					"type": "age",
-					"dbxref": "SNOMEDCT_US:397669002",
+					"code": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
 					"unit": "year"
