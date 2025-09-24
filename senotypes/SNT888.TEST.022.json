@@ -1,5 +1,5 @@
 {
-	"senotype":	{
+	"senosource":	{
 		"id": "SNT888.TEST.022",
 		"provenance": {
 			"predecessor": "SNT888.TEST.021",
@@ -7,7 +7,7 @@
 		},
 		"doi": null,
 		"name": "human lung fibroblast copd sasp",
-		"definition": "This senescence associated secretory phenotype has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
+		"definition": "This senescence associated secretory phenosource has been demonstrated in human lung fibroblasts in chronic obstructive pulmonary disease patients using spatial transcriptomics."
 	},
 	"submitter": {
 		"name": {
@@ -24,7 +24,7 @@
 			},
 			"objects": [
 				{
-				"type": "valueset",
+				"source": "valueset",
 				"code": "NCBI:9606"
 				}
 			]
@@ -36,18 +36,18 @@
 			},
 			"objects": [
 				{
-					"type": "valueset",
+					"source": "valueset",
 					"code": "UBERON:0002048"
 				}
 			]
 		},
 		{
 			"predicate": {
-				"term": "has_cell_type"
+				"term": "has_cell_source"
 			},
 			"objects": [
 				{
-					"type": "valueset",
+					"source": "valueset",
 					"code": "CL:0002553"
 				}
 			]
@@ -58,8 +58,8 @@
 			},
 			"objects": [
 				{
-					"type": "valueset",
-					"code": "SENOTYPE_VS:C00201"
+					"source": "valueset",
+					"code": "SENOsource_VS:C00201"
 				}
 			]
 		},
@@ -69,8 +69,8 @@
 			},
 			"objects": [
 				{
-					"type": "valueset",
-					"code": "SENOTYPE_VS:C00111"
+					"source": "valueset",
+					"code": "SENOsource_VS:C00111"
 				}
 			]
 		},
@@ -80,7 +80,7 @@
 			},
 			"objects": [
 				{
-					"type": "external",
+					"source": "external",
 					"code": "RRID:111111"
 				}
 			]
@@ -91,8 +91,8 @@
 			},
 			"objects": [
 				{
-					"type": "valueset",
-					"code": "SENOTYPE_VS:C00401"
+					"source": "valueset",
+					"code": "SENOsource_VS:C00401"
 				}
 			]
 		},
@@ -102,7 +102,7 @@
 			},
 			"objects": [
 				{
-					"type": "age",
+					"source": "age",
 					"code": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
@@ -116,7 +116,7 @@
 			},
 			"objects": [
 				{
-					"type": "valueset",
+					"source": "valueset",
 					"code": "OBI:0003647"
 				}
 			]
@@ -127,7 +127,7 @@
 			},
 			"objects": [
 				{
-					"type": "external",
+					"source": "external",
 					"code": "PMID:31945054"
 				}
 			]
@@ -138,7 +138,7 @@
 			},
 			"objects": [
 				{
-					"type": "external",
+					"source": "external",
 					"code": "SNT499.ZXRV.452"
 				}
 			]
@@ -150,11 +150,11 @@
 			},
 			"objects": [
 				{
-					"type": "external",
+					"source": "external",
 					"code": "UNIPROTKB:O76094"
 				},
 				{
-					"type": "external",
+					"source": "external",
 					"code": "HGNC:76"
 				}
 				]
@@ -166,15 +166,15 @@
 			"objects": [
 
 				{
-					"type": "external",
+					"source": "external",
 					"code": "UNIPROTKB:P22087"
 				},
 				{
-					"type": "external",
+					"source": "external",
 					"code": "UNIPROTKB:Q99988"
 				},
 				{
-					"type": "external",
+					"source": "external",
 					"code": "UNIPROTKB:P09429"
 				}
 			]
@@ -185,7 +185,7 @@
 			},
 			"objects": [
 				{
-					"type": "external",
+					"source": "external",
 					"code": "UNIPROTKB:Q7Z460"
 				}
 			]
@@ -196,7 +196,7 @@
 			},
 			"objects": [
 				{
-					"type": "external",
+					"source": "external",
 					"code": "UNIPROTKB:P52294"
 				}				
 			]
