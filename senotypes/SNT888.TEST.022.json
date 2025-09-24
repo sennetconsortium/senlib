@@ -102,7 +102,7 @@
 			},
 			"objects": [
 				{
-					"source": "age",
+					"term": "age",
 					"code": "SNOMEDCT_US:397669002",
 					"lowerbound": 18,
 					"upperbound": 85,
