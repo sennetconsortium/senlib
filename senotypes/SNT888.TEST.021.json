@@ -1,5 +1,5 @@
 {
-	"senosource":	{
+	"senotype":	{
 		"id": "SNT888.TEST.021",
 		"provenance": {
 			"predecessor": "SNT888.TEST.020",
@@ -59,7 +59,7 @@
 			"objects": [
 				{
 					"source": "valueset",
-					"code": "SENOsource_VS:C00201"
+					"code": "SENOTYPE_VS:C00201"
 				}
 			]
 		},
@@ -70,7 +70,7 @@
 			"objects": [
 				{
 					"source": "valueset",
-					"code": "SENOsource_VS:C00111"
+					"code": "SENOTYPE_VS:C00111"
 				}
 			]
 		},
@@ -92,7 +92,7 @@
 			"objects": [
 				{
 					"source": "valueset",
-					"code": "SENOsource_VS:C00401"
+					"code": "SENOTYPE_VS:C00401"
 				}
 			]
 		},
