@@ -43,7 +43,7 @@
 		},
 		{
 			"predicate": {
-				"term": "has_cell_source"
+				"term": "has_cell_type"
 			},
 			"objects": [
 				{
