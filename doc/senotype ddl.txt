@@ -1,6 +1,3 @@
-# Senotype Assertion Schema
-
-```commandline
 # The Senotype library table.
 # Each row corresponds to a senotype submission.
 CREATE TABLE senotype (
@@ -32,13 +29,64 @@ INSERT INTO senotype_editor_valuesets (predicate_IRI, predicate_term, valueset_c
 ('http://purl.obolibrary.org/obo/RO_0002162','in_taxon','NCBI:9606','human'),
 ('http://purl.obolibrary.org/obo/RO_0002162','in_taxon','NCBI:10088','mouse'),
 ('http://purl.obolibrary.org/obo/RO_0001025','located_in','UBERON:0002048','lung'),
-('','has_cell_type','CL:0002553','fibroblast of lung'),
 ('','has_hallmark','SENOTYPE_VS:C00201','senescence associated secretory phenotype'),
 ('','has_molecular_observable','SENOTYPE_VS:C00111','secretome'),
 ('','has_origin','',''),
-('','has_inducer','SENOTYPE_VS:C00401','radiation'),
+('','has_inducer','SENOTYPE_VS:C00401','Radiation'),
+('','has_inducer','SENOTYPE_VS:C00402','DNA damage (genetic)'),
+('','has_inducer','SENOTYPE_VS:C00403','DNA damage (pharmacologic)'),
+('','has_inducer','SENOTYPE_VS:C00404','Protein Instability'),
+('','has_inducer','SENOTYPE_VS:C00405','Trauma'),
+('','has_inducer','SENOTYPE_VS:C00406','Developmental'),
+('','has_inducer','SENOTYPE_VS:C00407','Replicative (high passage)'),
+('','has_inducer','SENOTYPE_VS:C00408','Telomeric Stress (genetic)'),
+('','has_inducer','SENOTYPE_VS:C00409','Telomeric Stress (pharmacological'),
+('','has_inducer','SENOTYPE_VS:C00410','Oncogene-induced'),
+('','has_inducer','SENOTYPE_VS:C00401','Infection'),
+('','has_inducer','SENOTYPE_VS:C00412','Diet'),
 ('','has_context','SNOMEDCT_US:397669002','age'),
-('','has_assay','OBI:0003647','tandem mass spectrometry analysis'),
+('','has_context','SNOMEDCT_US:60621009','BMI'),
+('','has_sex','SNOMEDCT_US:248152002','Female'),
+('','has_sex','SNOMEDCT_US:248153007','Male'),
+('','has_assay','SENOTYPE_VS:C00500','2D Imaging Mass Cytometry'),
+('','has_assay','SENOTYPE_VS:C00501','3D Imaging Mass Cytometry'),
+('','has_assay','SENOTYPE_VS:C00502','10X Multiome'),
+('','has_assay','SENOTYPE_VS:C00503','Auto-fluorescence Microscopy'),
+('','has_assay','SENOTYPE_VS:C00504','Bulk ATACseq'),
+('','has_assay','SENOTYPE_VS:C00505','Bulk RNAseq'),
+('','has_assay','SENOTYPE_VS:C00506','Capture bead RNAseq (10x Genomics v3)'),
+('','has_assay','SENOTYPE_VS:C00507','Cell DIVE'),
+('','has_assay','SENOTYPE_VS:C00508','CODEX'),
+('','has_assay','SENOTYPE_VS:C00509','DESI'),
+('','has_assay','SENOTYPE_VS:C00510','H&E Stained Microscopy'),
+('','has_assay','SENOTYPE_VS:C00511','Label-free LC-MS/MS'),
+('','has_assay','SENOTYPE_VS:C00512','LC-MS'),
+('','has_assay','SENOTYPE_VS:C00513','LC-MS Bottom Up'),
+('','has_assay','SENOTYPE_VS:C00514','LC-MS Top Down'),
+('','has_assay','SENOTYPE_VS:C00515','Light Sheet Microscopy'),
+('','has_assay','SENOTYPE_VS:C00516','MALDI IMS'),
+('','has_assay','SENOTYPE_VS:C00517','MS Lipidomics'),
+('','has_assay','SENOTYPE_VS:C00518','Multiplex Ion Beam Imaging'),
+('','has_assay','SENOTYPE_VS:C00519','NanoDESI'),
+('','has_assay','SENOTYPE_VS:C00520','PAS Stained Microscopy'),
+('','has_assay','SENOTYPE_VS:C00521','PhenoCycler'),
+('','has_assay','SENOTYPE_VS:C00522','sciATACseq'),
+('','has_assay','SENOTYPE_VS:C00523','sciRNAseq'),
+('','has_assay','SENOTYPE_VS:C00524','scRNAseq (10x Genomics v2)'),
+('','has_assay','SENOTYPE_VS:C00525','scRNAseq (10x Genomics v3)'),
+('','has_assay','SENOTYPE_VS:C00526','seqFISH'),
+('','has_assay','SENOTYPE_VS:C00527','Slide-seq'),
+('','has_assay','SENOTYPE_VS:C00528','SNAREseq2'),
+('','has_assay','SENOTYPE_VS:C00529','SNARE-seq2'),
+('','has_assay','SENOTYPE_VS:C00530','snATACseq-multiome'),
+('','has_assay','SENOTYPE_VS:C00531','snATACseq'),
+('','has_assay','SENOTYPE_VS:C00532','snATACseq (SNARE-seq2)'),
+('','has_assay','SENOTYPE_VS:C00533','snRNAseq (10x Genomics v2)'),
+('','has_assay','SENOTYPE_VS:C00534','snRNAseq (10x Genomics v3)'),
+('','has_assay','SENOTYPE_VS:C00535','snRNAseq (SNARE-seq2)'),
+('','has_assay','SENOTYPE_VS:C00536','TMT LC-MS'),
+('','has_assay','SENOTYPE_VS:C00537','Visium (no probes)'),
+('','has_assay','SENOTYPE_VS:C00538','Whole Genome Sequencing'),
 ('','has_citation','',''),
 ('','has_dataset','',''),
 ('http://purl.obolibrary.org/obo/RO_0015004','has_characterizing_marker_set','',''),
@@ -71,7 +119,7 @@ CREATE TABLE assertion_predicate_object (
 INSERT INTO assertion_predicate_object (predicate_term, object_source, object_form_field) VALUES
 ('in_taxon','valueset','taxon'),
 ('located_in','valueset','location'),
-('has_cell_type','valueset','celltype'),
+('has_cell_type','external','celltype'),
 ('has_hallmark','valueset','hallmark'),
 ('has_molecular_observable','valueset','observable'),
 ('has_inducer','valueset','inducer'),
@@ -79,7 +127,8 @@ INSERT INTO assertion_predicate_object (predicate_term, object_source, object_fo
 ('has_citation','external','citation'),
 ('has_origin','external','origin'),
 ('has_dataset','external','dataset'),
-('has_characterizing_marker_set','external',marker');;
+('has_characterizing_marker_set','external','marker'),
+('has_sex','valueset','sex');
 
 
 # Table that maps context assertions to codes.
@@ -97,6 +146,5 @@ CREATE TABLE context_assertion_code (
 
 
 INSERT INTO context_assertion_code (context_name, code) VALUES
-('age','SNOMEDCT_US:397669002');
-
-```
+('age','SNOMEDCT_US:397669002'),
+('BMI','SNOMEDCT_US:60621009');
