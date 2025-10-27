@@ -138,7 +138,9 @@ INSERT INTO assertion_predicate_object (predicate_term, object_source, object_fo
 ('has_origin','external','origin'),
 ('has_dataset','external','dataset'),
 ('has_characterizing_marker_set','external','marker'),
-('has_sex','valueset','sex');
+('has_sex','valueset','sex'),
+('has_ftu','external','ftu'),
+('has_diagnosis','external','diagnosis');
 
 
 # Table that maps context assertions to codes.
