@@ -113,7 +113,7 @@ INSERT INTO senotype_editor_valuesets (predicate_IRI, predicate_term, valueset_c
 # - predicate_term: the term used for the assertion predicate
 # - object_source: 
 #   - valueset: the object is a member of a Senotype valueset
-#   - external: the object is from an external source - i.e., PubMed, SciCrunch, or SenNet
+#   - external: the object is from an external source - i.e., PubMed, SciCrunch, SenNet, or UBKG
 # - object_form_field: the identifier used for the field in the Edit form of the Senotype Editor
 # Example: in_taxon
 # - predicate_term: in_taxon
@@ -128,10 +128,10 @@ CREATE TABLE assertion_predicate_object (
 
 INSERT INTO assertion_predicate_object (predicate_term, object_source, object_form_field) VALUES
 ('in_taxon','valueset','taxon'),
-('located_in','valueset','location'),
+('located_in','external','location'),
 ('has_cell_type','external','celltype'),
 ('has_hallmark','valueset','hallmark'),
-('has_molecular_observable','valueset','observable'),
+('has_microenvironment','valueset','microenvironment'),
 ('has_inducer','valueset','inducer'),
 ('has_assay','valueset','assay'),
 ('has_citation','external','citation'),
