@@ -14,7 +14,7 @@ Following is a high-level model of an encoded senotype:
 ## Senlib database
 The Senlib database will support the definition of senotypes:
 1. Senotype _submissions_ will be maintained as JSON objects. Refer to the [Senotype_Submission_Schema](https://github.com/sennetconsortium/senlib/blob/main/doc/Senotype_Submission_Schema.md) document.
-2. Assertion reference information used by the Senotype editor will be maintained in various lookup tables. Refer to the [Senotype_Assertion_Schema](https://github.com/sennetconsortium/senlib/blob/main/doc/Senotype_Assertion_Schema.md) document.
+2. Assertion reference information used by the Senotype editor will be maintained in various lookup tables. Refer to the [Senotype Submission Schema](https://github.com/sennetconsortium/senlib/blob/main/doc/Senotype_Submission_Schema.md) document.
 
 CRU operations (not delete) will be managed by the [Senotype Editor](https://github.com/sennetconsortium/senotype_editor).
 
