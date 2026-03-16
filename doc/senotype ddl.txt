@@ -97,6 +97,7 @@ INSERT INTO senotype_editor_valuesets (predicate_IRI, predicate_term, valueset_c
 ('','has_assay','SENOTYPE_VS:C00536','TMT LC-MS'),
 ('','has_assay','SENOTYPE_VS:C00537','Visium (no probes)'),
 ('','has_assay','SENOTYPE_VS:C00538','Whole Genome Sequencing'),
+('','has_assay','SENOTYPE_VS:C00539','Xenium'),
 ('','has_citation','',''),
 ('','has_dataset','',''),
 ('http://purl.obolibrary.org/obo/RO_0015004','has_characterizing_marker_set','',''),
