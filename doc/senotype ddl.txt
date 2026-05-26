@@ -52,7 +52,7 @@ INSERT INTO senotype_editor_valuesets (predicate_IRI, predicate_term, valueset_c
 ('','has_inducer','SENOTYPE_VS:C00408','Telomeric Stress (genetic)'),
 ('','has_inducer','SENOTYPE_VS:C00409','Telomeric Stress (pharmacological'),
 ('','has_inducer','SENOTYPE_VS:C00410','Oncogene-induced'),
-('','has_inducer','SENOTYPE_VS:C00401','Infection'),
+('','has_inducer','SENOTYPE_VS:C00411','Infection'),
 ('','has_inducer','SENOTYPE_VS:C00412','Diet'),
 ('','has_context','SNOMEDCT_US:397669002','age'),
 ('','has_context','SNOMEDCT_US:60621009','BMI'),
